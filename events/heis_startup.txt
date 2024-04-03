@@ -1,0 +1,24 @@
+############################
+#
+# HEIS startup events
+#
+# Written by Pat Sternberg
+#
+############################
+
+namespace = heis_startup
+
+# Testing events
+event = {
+	id = heis_startup.1
+	title = "heis_startup.1.name"
+	desc = "heis_startup.1.desc"
+	picture = GFX_evt_cybernetics
+
+	fire_only_once = yes
+
+	option = {
+		name = "heis_startup.1.a"
+		name = "heis_startup.1.b"
+	}
+}
