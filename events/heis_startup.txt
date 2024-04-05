@@ -9,7 +9,7 @@
 namespace = heis_startup
 
 # Testing events
-event = {
+country_event = {
 	id = heis_startup.1
 	title = "heis_startup.1.name"
 	desc = "heis_startup.1.desc"
@@ -19,6 +19,30 @@ event = {
 
 	option = {
 		name = "heis_startup.1.a"
-		name = "heis_startup.1.b"
+		trigger = {
+			owner = {
+				is_authoritarian = yes
+			}
+		}
+		add_resource = {
+			<minerals> = <100>
+		}
 	}
+
+	option = {
+		name = "heis_startup.1.b"
+		trigger = {
+			owner = {
+				is_authoritarian = no
+			}
+		}
+			add_resource = {
+				<energy> = <100>
+		}
+	}
+
+	option = {
+		name = "heis_startup.1.c"
+	}
+}
 }
