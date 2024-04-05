@@ -25,7 +25,7 @@ country_event = {
 			}
 		}
 		add_resource = {
-			<minerals> = <100>
+			minerals = 100
 		}
 	}
 
@@ -37,7 +37,7 @@ country_event = {
 			}
 		}
 			add_resource = {
-				<energy> = <100>
+				energy = 100
 		}
 	}
 
