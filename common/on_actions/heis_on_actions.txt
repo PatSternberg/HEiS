@@ -1,0 +1,16 @@
+# on_actions for HEiS
+# These actions call event certain triggers happen (e.g. scanning a planet)
+
+# Triggers when the game starts
+on_game_start = {
+	events = {
+		game_start.1 # Show HEiS startup
+	}
+}
+
+# No scope, like on_game_start
+on_monthly_pulse = {
+	events = {
+		game_start.1 # Show HEiS startup
+	}
+}
