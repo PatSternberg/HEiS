@@ -45,4 +45,3 @@ country_event = {
 		name = "heis_startup.1.c"
 	}
 }
-}
